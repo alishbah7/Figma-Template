@@ -12,6 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      letterSpacing: {
+        "small": "2px",
+      },
+      boxShadow: {
+        "gray-custom": "0px 1px 20px gray",
+      },
     },
   },
   plugins: [],
