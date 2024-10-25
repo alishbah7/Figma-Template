@@ -7,7 +7,6 @@ import Products from "./components/products";
 import Offers from "./components/offers";
 import Trending from "./components/trending";
 import Footer from "./components/footer";
-import companies from "../images/companies.png"
 
 export default function Home() {
   return (

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link"
 import sofa1 from "../../images/sofa1.png"
 import sofa2 from "../../images/sofa2.png"
 import sofa3 from "../../images/sofa3.png"
