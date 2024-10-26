@@ -31,38 +31,38 @@ export default function Trending(){
 
             </section>
 
-            <section id="trends" className="flex gap-4 justify-center py-[40px]">
-                <div className="w-[320px] h-[270px] bg-pink-100 rounded-md shadow-gray-custom">
+            <section id="trends" className="flex gap-4 justify-center mt-[30px]">
+                <div id="trendCard" className="w-[320px] h-[270px] bg-pink-100 rounded-md shadow-gray-custom">
                     <h2 className="text-[20px] text-purple-800 font-semibold mt-[20px] ml-[20px]">23% off on all products</h2>
                     <h4 id="h4" className="w-[80px] text-pink-500 text-center mt-[10px] ml-[20px]">Shop Now</h4>
-                    <Image src={trending1} alt="clock" className="mt-[-25px] ml-[120px]"/>
+                    <Image src={trending1} alt="clock" className="mt-[-25px] ml-[120px]" id="trendImg"/>
 
                 </div>
 
-                <div id="trendDiv" className="w-[320px] h-[270px] bg-purple-100 rounded-md shadow-gray-custom">
+                <div id="trendCard" className="w-[320px] h-[270px] bg-purple-100 rounded-md shadow-gray-custom">
                 <h2 className="text-[20px] text-purple-800 font-semibold mt-[20px] ml-[20px]">23% off on all products</h2>
                     <h4 id="h4" className="w-[80px] text-pink-500 text-center mt-[10px] ml-[20px]">Shop Now</h4>
-                    <Image src={trending2} alt="table" className="mt-[40px] ml-[110px] w-[200px]"/>
+                    <Image src={trending2} alt="table" className="mt-[40px] ml-[110px] w-[200px]" id="trendImg"/>
                 </div>
 
-                <div className="flex gap-6 flex-col w-[320px] h-[270px]">
-                    <div className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
+                <div className="flex justify-center items-center gap-6 flex-col w-[320px] h-[270px]">
+                    <div id="trendCards"  className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
                         <div className="h-[74px] w-[107px] bg-gray-200">
                             <Image src={trending3} alt="chair" className="ml-[20px]"/>
                         </div>
-                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]">Executive Seat Chair <br /> $32.00</h4>
+                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]" id="trendH4">Executive Seat Chair <br /> $32.00</h4>
                     </div>
-                    <div className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
+                    <div id="trendCards"  className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
                         <div className="h-[74px] w-[107px] bg-gray-200">
                             <Image src={trending4} alt="chair" className="ml-[20px]"/>
                         </div>
-                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]">Executive Seat Chair <br /> $32.00</h4>
+                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]" id="trendH4">Executive Seat Chair <br /> $32.00</h4>
                     </div>
-                    <div className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
+                    <div id="trendCards" className="flex h-[74px] w-[320px] rounded-md shadow-gray-custom">
                         <div className="h-[74px] w-[107px] bg-gray-200">
                             <Image src={trending5} alt="chair" className="ml-[20px]"/>
                         </div>
-                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]">Executive Seat Chair <br /> $32.00</h4>
+                        <h4 className="text-1xl font-semibold text-purple-800 ml-[10px] mt-[10px]" id="trendH4">Executive Seat Chair <br /> $32.00</h4>
                     </div>
 
                 </div>

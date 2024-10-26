@@ -46,8 +46,8 @@ export default function Home() {
 
       {/* Newshelter */}
       <section id="newshelter" className="flex flex-col justify-center">
-        <h1 className="text-3xl font-extrabold text-purple-900 text-center">Get Latest Update By Subscribing <br /> Our Newshelter</h1>
-        <Link href={""} className="flex justify-center"><h1 className="w-[140px] h-[50px] bg-pink-600 py-4 text-center text-sm font-extrabold text-white mt-[18px]">Shop Now</h1></Link>
+        <h1 className="text-3xl font-extrabold text-purple-900 text-center" id="newsH1">Get Latest Update By Subscribing <br /> Our Newshelter</h1>
+        <Link href={""} className="flex justify-center"><h1 className="w-[140px] h-[50px] bg-pink-600 py-4 text-center text-sm font-extrabold text-white mt-[18px]">Subscribe</h1></Link>
       </section>
 
       {/* Companies */}

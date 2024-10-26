@@ -29,9 +29,10 @@ input{
 }
 @media screen and (max-width: 560px) {
   #cards{
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
     justify-content: center;
-    margin-left: 20px;
+    align-items: center;
+    flex-direction: column;
   }  
 }
 @media screen and (max-width: 450px) {
@@ -42,16 +43,6 @@ input{
 }
 #h4{
   border-bottom: 2px solid rgb(239, 112, 133);
-}
-@media screen and (max-width: 355px) {
-  #cards{
-    margin-left: 10px;
-  }  
-}
-@media screen and (max-width: 315px) {
-  #cards{
-    margin-left: 0;
-  }  
 }
 
 /* Trending Trends Cards */
@@ -66,22 +57,39 @@ input{
 }
 @media screen and (max-width:680px){
   #trends{
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
-@media screen and (max-width:350px){
-  #trends{
-    display: none;
+@media screen and (max-width: 345px) {
+  #trendCard, #trendCards{
+    width: 270px;
+  }
+  #trendCard{
+    height: 250px;
+  }
+  #trendImg{
+    height: 200px;
+    width: 160px;
+  }
+  #trendH4{
+    font-size: 12px;
   }
 }
-
 /* Newshelter */
 #newshelter{
   height: 300px;
   background: url(../images/bg.png);
   background-size: cover;
+  margin-top: 30px;
 }
-
+@media screen and (max-width: 565px) {
+  #newsH1{
+    font-size: 20px;
+  }
+}
 /* Companies */
 #comp{
   background: url(../images/companies.png);
